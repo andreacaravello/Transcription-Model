@@ -7,7 +7,13 @@ This project provides a simple Gradio-based web interface to:
 - Run **speaker diarization** using `pyannote.audio`
 - Output speaker-tagged transcript and timestamped segments
 
-## Usage
+## 🎚 NEW TO DEPLOYING MODELS ?
+
+**[Read the Beginner's Guide](/DEPLOYMENT_GUIDE.md)** for a step-by-step tutorial with screenshots and detailed explanations! No technical experience required.
+
+---
+
+## Quick Start (For Developers)
 
 ### 1. Build the Docker container
 ```bash
@@ -23,7 +29,7 @@ cp .env.template .env
 
 2. Add your HuggingFace token to `.env`:
 ```bash
-HUGGINGFACE_TOKEN=your_token_here
+HUGGINGFACE_TOKEN =your_token_here
 ```
 
 ### 3. Run the app
