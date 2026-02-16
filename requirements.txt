@@ -1,0 +1,24 @@
+numpy==1.26.4
+soundfile==0.12.1
+openai-whisper==20231117
+ffmpeg-python==0.2.0
+# PyTorch stack (ARM-compatible wheels on Apple/ Docker aarch64)
+torch==2.2.2
+torchaudio==2.2.2
+# Pyannote stack (matches torchaudio >= 2.2)
+pyannote.audio==3.3.2
+pyannote.core==5.0.0
+huggingface_hub==0.25.2
+
+# Gradio + client (MUST be compatible)
+gradio==4.44.1
+gradio_client==1.3.0
+
+# Server + utils
+uvicorn==0.30.1
+tiktoken==0.5.1
+regex==2023.6.3
+
+# numba/llvmlite must match (fixes your last build error)
+numba==0.58.1
+llvmlite==0.41.1
